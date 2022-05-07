@@ -1,0 +1,190 @@
+@media (min-width:360px)
+{
+    body 
+    {
+        background: white;
+    }
+*  
+{
+    box-sizing: border-box;
+}
+    img
+    {
+        display: block;
+        max-width: 100%;
+    }
+    .header .contenedor
+    {
+        display: flex;
+        justify-content: space-between;
+        background: white;
+        color: white;
+    }
+.icono_menu
+{
+    display: block;
+    width: 30px;
+    height: 30px;
+    /*border: 6px solid black;*/
+    border-radius: 5px;
+    margin-left: auto;
+    margin-top: 25px;
+    cursor: pointer;
+    margin-right: 5px;
+}
+.menu_nav
+{
+    position: absolute;
+    top: 80px;
+    left: -100%;
+    width: 100%;
+    transition: all 0.8s;
+    background: black;
+
+}
+.menu
+{
+list-style: none;
+padding:0;
+margin:0;
+background: rgba(222, 49, 49, 0.938);
+}
+.menu_link
+{
+    display: block;
+    padding: 20px;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-size: 18px;
+    font:bold;
+    color: white;
+    align-content: space-between;
+    display: flex;
+}
+.menu_link:hover
+{
+    color: rgb(247, 250, 253);
+    background: rgb(209, 77, 77);
+}
+.mostrar
+{
+    left: 0;
+}
+
+.banner
+{
+    position: relative;
+    z-index: -1000;
+}
+.iconos_menu
+{
+    padding-left: 12px;
+    width: 40px;
+}
+#division1
+{
+    width: 350px;
+    height: 4px;
+    background-color: rgb(173, 5, 5);
+    margin-top: 10px;
+    border-radius: 30%;
+}
+.menu_principal
+{
+    width: 350px;
+    height: 780px;
+    margin-top: 7px;
+    background: white;
+}
+.entradas
+{
+    background: black;
+    border-radius: 20%;
+    width: 120px;
+    height: 50px;
+    text-align: center;
+    margin-left: 120px;
+    animation: fadein 3s;
+}
+#titulo
+{
+    color: rgb(255, 128, 0);
+    font-family: 'Book Antiqua';
+    font: bold;
+    font-size: 20px;
+    padding-top: 13px;
+}
+.platillos
+{
+    width: 350px;
+    height: 150px;
+    /*background: rgb(1, 91, 48);*/
+    color: white;
+    display: flex;
+    margin-top: 15px;
+    justify-content: space-between;
+    text-align: left;
+    border-radius: 4%;
+    box-shadow: 6px 10px 13px black;
+    margin-bottom: 15px;
+    align-items: center;
+    background: linear-gradient(to right, rgb(2, 174, 91), rgb(22, 99, 3) );
+    animation: fadein 3s;
+}
+
+#nombre
+{
+ font-size: 18px;
+ margin-left: 8px;
+ margin-right: 38px;
+ font-family: 'Book Antiqua';
+ font: bold;
+}
+#precio
+{
+    font-size: 18px;
+    margin-right: 38px;
+    font-family: 'Book Antiqua';
+    font: bold;
+}
+#descripcion
+{
+font-size: 14px;
+font-family: 'Book Antiqua';
+margin-right: 10px;
+}
+#imagen_plato
+{
+    margin-top: 5px;
+    box-shadow: 5px 6px 8px black;
+    border-radius: 5%;
+    animation: fadein 3s;
+}
+#img_plato
+{
+    border-radius: 5%;
+    width: 350px;
+    height: 240px;
+    animation: fadein 3s;
+}
+#division2
+{
+    width: 350px;
+    height: 4px;
+    background-color: rgb(5, 173, 5);
+    margin-top: 10px;
+    border-radius: 30%;
+}
+
+@keyframes fadein {
+    0% {
+    opacity:0;
+    }
+    50%{
+    opacity:0.6;
+    }
+    100% {
+    opacity:1;
+    }
+   }
+}

@@ -1,0 +1,238 @@
+@media (min-width:360px)
+{
+    body 
+    {
+        background:white;
+    }
+*  
+{
+    box-sizing: border-box;
+}
+    img
+    {
+        display: block;
+        max-width: 100%;
+    }
+    .header .contenedor
+    {
+        display: flex;
+        justify-content: space-between;
+        background: white;
+        color: white;
+    }
+.icono_menu
+{
+    display: block;
+    width: 30px;
+    height: 30px;
+    /*border: 6px solid black;*/
+    border-radius: 5px;
+    margin-left: auto;
+    margin-top: 25px;
+    cursor: pointer;
+    margin-right: 5px;
+}
+.menu_nav
+{
+    position: absolute;
+    top: 80px;
+    left: -100%;
+    width: 100%;
+    transition: all 0.8s;
+    background: black;
+
+}
+.menu
+{
+list-style: none;
+padding:0;
+margin:0;
+background: rgba(222, 49, 49, 0.938);
+}
+.menu_link
+{
+    display: block;
+    padding: 20px;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-size: 18px;
+    font:bold;
+    color: white;
+    align-content: space-between;
+    display: flex;
+}
+.menu_link:hover
+{
+    color: rgb(247, 250, 253);
+    background: rgb(209, 77, 77);
+}
+.mostrar
+{
+    left: 0;
+}
+
+.banner
+{
+    position: relative;
+    z-index: -1000;
+}
+.iconos_menu
+{
+    padding-left: 12px;
+    width: 40px;
+}
+.seccion1
+{
+ display: flex;
+ width: 350px;
+ height: 500px;
+ margin-top: 10px;
+ margin-bottom: 50px;
+}
+#chefs
+{
+    border-radius: 12%;
+}
+#nosotros
+{
+width: 350px;
+height: 500px;
+}
+#titulo1
+{
+ font-size: 40px;
+ text-align: center;
+ font-family: 'Monotype Corsiva';
+}
+#descripcion
+{
+    font-size: 20px;
+    font-family: 'Monotype Corsiva';
+    text-align: justify;
+}
+.seccion2
+{
+    width: 350px;
+    height: 500px;
+    padding-left: 0%;
+    margin-bottom: 50px;
+}
+.seccion3
+{
+display: flex;
+justify-content: space-evenly;
+width: 350px;
+height: 300px;
+}
+#texto_div
+{
+    width: 190px;
+    height: 200px;
+
+}
+#imagen_sec
+{
+    width: 150px;
+    height: 230px;
+    margin-left: 5px;
+    margin-top: 15px;
+}
+#imagen_comida
+{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+#texto1
+{
+    font-size: 18px;
+}
+.seccion4
+{
+ width: 350px;
+ height: 380px;
+}
+.galeria img
+{
+    width: 350px;
+    height: 360px;
+}
+.galeria
+{
+    margin-left: 0px;
+    overflow: hidden;
+    margin-top: 0px;
+}
+.galeria ul
+{
+    display: flex;
+    padding: 0px;
+    width: 400%;
+    animation: cambio 30s infinite;
+    animation-direction: alternate-reverse;
+    animation-timing-function: cubic-bezier(0.755, 0.05, 0.855, 0.06);
+    height: 59%;
+}
+@keyframes cambio
+{
+    0%
+    {
+        margin-left: 0%;
+    }
+    20%
+    {
+        margin-left: 0%;
+    }
+    25%
+    {
+        margin-left: -100%;
+    }
+    45%
+    {
+        margin-left: -100%;
+    }
+    50%
+    {
+        margin-left: -200%;
+    }
+    70%
+    {
+        margin-left: -200%;
+    }
+    75%
+    {
+        margin-left: -300%;
+    }
+    100%
+    {
+        margin-left: -300%;
+    }
+    
+}
+.galeria li
+{
+    list-style: none;
+    width: 100%;
+}
+#division1
+{
+    width: 350px;
+    height: 4px;
+    background-color: rgb(5, 173, 5);
+    margin-top: 10px;
+    border-radius: 30%;
+}
+#division2
+{
+    width: 350px;
+    height: 4px;
+    background-color: red;
+    margin-top: 10px;
+    border-radius: 30%;
+}
+#texto2
+{
+    font-size: 18px;
+    text-align: justify;
+}
+}
