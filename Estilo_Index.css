@@ -235,6 +235,11 @@ height: 300px;
     font-size: 18px;
     text-align: justify;
 }
+    #mapa
+    {
+        width: 350px;
+        heigth: 120px;
+    }
 }
 @media (min-width:418px)
 {
@@ -475,4 +480,9 @@ height: 300px;
     font-size: 18px;
     text-align: justify;
 }
+    #mapa
+    {
+        width: 350px;
+        heigth: 120px;
+    }
 }
