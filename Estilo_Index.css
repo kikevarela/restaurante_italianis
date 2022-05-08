@@ -356,7 +356,7 @@ height: 500px;
 .seccion2
 {
     width: 400px;
-    height: 500px;
+    height: 530px;
     padding-left: 0%;
     margin-bottom: 50px;
 }
@@ -365,7 +365,7 @@ height: 500px;
 display: flex;
 justify-content: space-evenly;
 width: 400px;
-height: 300px;
+height: 380px;
 }
 #texto_div
 {
@@ -395,7 +395,7 @@ height: 300px;
 .seccion4
 {
  width: 400px;
- height: 380px;
+ height: 420px;
 }
 .galeria img
 {
