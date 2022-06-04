@@ -235,13 +235,9 @@ height: 300px;
     font-size: 18px;
     text-align: justify;
 }
-    #mapa
-    {
-        width: 350px;
-        heigth: 120px;
-    }
 }
-@media (min-width:430px)
+
+@media (min-width:410px)
 {
     body 
     {
@@ -328,18 +324,19 @@ background: rgba(222, 49, 49, 0.938);
 {
  display: flex;
  width: 400px;
- height: 500px;
+ height: 600px;
  margin-top: 10px;
  margin-bottom: 50px;
 }
 #chefs
 {
     border-radius: 12%;
+    box-shadow: 6px 10px 8px black;
 }
 #nosotros
 {
 width: 400px;
-height: 500px;
+height: 600px;
 }
 #titulo1
 {
@@ -356,23 +353,31 @@ height: 500px;
 .seccion2
 {
     width: 400px;
-    height: 530px;
+    height: 620px;
     padding-left: 0%;
     margin-bottom: 50px;
+}
+#mision
+{
+    width: 390px;
+    height: 310px;
+}
+#vision
+{
+    width: 390px;
+    height: 310px;
 }
 .seccion3
 {
 display: flex;
 justify-content: space-evenly;
 width: 400px;
-height: 380px;
+height: 300px;
 }
 #texto_div
 {
     width: 190px;
     height: 200px;
-
-
 }
 #imagen_sec
 {
@@ -395,7 +400,7 @@ height: 380px;
 .seccion4
 {
  width: 400px;
- height: 420px;
+ height: 380px;
 }
 .galeria img
 {
@@ -461,7 +466,7 @@ height: 380px;
 }
 #division1
 {
-    width: 400px;
+    width: 410px;
     height: 4px;
     background-color: rgb(5, 173, 5);
     margin-top: 10px;
@@ -469,7 +474,7 @@ height: 380px;
 }
 #division2
 {
-    width: 400px;
+    width: 410px;
     height: 4px;
     background-color: red;
     margin-top: 10px;
@@ -480,9 +485,4 @@ height: 380px;
     font-size: 18px;
     text-align: justify;
 }
-    #mapa
-    {
-        width: 350px;
-        heigth: 120px;
-    }
 }
