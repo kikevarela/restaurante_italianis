@@ -188,7 +188,7 @@ margin-right: 10px;
     }
    }
 }
-@media (min-width:410px)
+@media (min-width:430px)
 {
     body 
     {
@@ -273,7 +273,7 @@ background: rgba(222, 49, 49, 0.938);
 }
 #division1
 {
-    width: 400px;
+    width: 405px;
     height: 4px;
     background-color: rgb(173, 5, 5);
     margin-top: 10px;
@@ -281,7 +281,7 @@ background: rgba(222, 49, 49, 0.938);
 }
 .menu_principal
 {
-    width: 400px;
+    width: 405px;
     height: 780px;
     margin-top: 7px;
     background: white;
@@ -306,7 +306,7 @@ background: rgba(222, 49, 49, 0.938);
 }
 .platillos
 {
-    width: 400px;
+    width: 405px;
     height: 150px;
     /*background: rgb(1, 91, 48);*/
     color: white;
@@ -359,7 +359,7 @@ margin-right: 10px;
 }
 #division2
 {
-    width: 400px;
+    width: 405px;
     height: 4px;
     background-color: rgb(5, 173, 5);
     margin-top: 10px;
