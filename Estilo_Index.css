@@ -237,7 +237,7 @@ height: 300px;
 }
 }
 
-@media (min-width:440px)
+@media (min-width:430px)
 {
     body 
     {
@@ -323,7 +323,7 @@ background: rgba(222, 49, 49, 0.938);
 .seccion1
 {
  display: flex;
- width: 400px;
+ width: 430px;
  height: 600px;
  margin-top: 10px;
  margin-bottom: 50px;
@@ -335,7 +335,7 @@ background: rgba(222, 49, 49, 0.938);
 }
 #nosotros
 {
-width: 400px;
+width: 405px;
 height: 600px;
 }
 #titulo1
@@ -352,28 +352,28 @@ height: 600px;
 }
 .seccion2
 {
-    width: 400px;
-    height: 760px;
+    width: 405px;
+    height: 800px;
     padding-left: 0%;
     margin-bottom: 50px;
 }
 #mision
 {
-    width: 390px;
-    height: 380px;
+    width: 405px;
+    height: 400px;
     margin-left: 5px;
 }
 #vision
 {
-    width: 390px;
-    height: 380px;
+    width: 405px;
+    height: 400px;
     margin-left: 5px;
 }
 .seccion3
 {
 display: flex;
 justify-content: space-evenly;
-width: 400px;
+width: 430px;
 height: 300px;
 }
 #texto_div
@@ -404,7 +404,7 @@ height: 300px;
 }
 .seccion4
 {
- width: 400px;
+ width: 405px;
  height: 380px;
 }
 .galeria img
@@ -426,7 +426,7 @@ height: 300px;
     animation: cambio 30s infinite;
     animation-direction: alternate-reverse;
     animation-timing-function: cubic-bezier(0.755, 0.05, 0.855, 0.06);
-    height: 59%;
+    height: 60%;
 }
 @keyframes cambio
 {
@@ -471,7 +471,7 @@ height: 300px;
 }
 #division1
 {
-    width: 410px;
+    width: 405px;
     height: 4px;
     background-color: rgb(5, 173, 5);
     margin-top: 10px;
@@ -479,15 +479,17 @@ height: 300px;
 }
 #division2
 {
-    width: 410px;
+    width: 405px;
     height: 4px;
     background-color: red;
     margin-top: 10px;
     border-radius: 30%;
+    margin-bottom: 5px;
 }
 #texto2
 {
     font-size: 18px;
     text-align: justify;
+    margin-bottom: 5px;
 }
 }
