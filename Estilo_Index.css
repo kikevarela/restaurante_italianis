@@ -353,20 +353,21 @@ height: 600px;
 .seccion2
 {
     width: 405px;
-    height: 850px;
+    height: 900px;
     padding-left: 0%;
     margin-bottom: 50px;
 }
 #mision
 {
     width: 405px;
-    height: 422px;
+    height: 450px;
     margin-left: 5px;
+    
 }
 #vision
 {
     width: 405px;
-    height: 422px;
+    height: 450px;
     margin-left: 5px;
 }
 .seccion3
